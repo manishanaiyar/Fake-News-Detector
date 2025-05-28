@@ -14,11 +14,13 @@ This project uses BERT embeddings with an LSTM classifier to detect fake news.
 ## Model Performance
 The Fake News Detector using BERT + LSTM achieved high performance on the test set:
 
-Metric	Fake Class	Real Class
-Precision	0.98	0.93
-Recall	0.93	0.98
-F1-Score	0.96	0.96
-Support	4710	4270
+| Metric        | Fake Class | Real Class |
+| ------------- | ---------- | ---------- |
+| **Precision** | 0.98       | 0.93       |
+| **Recall**    | 0.93       | 0.98       |
+| **F1-Score**  | 0.96       | 0.96       |
+| **Support**   | 4710       | 4270       |
+
 
 Overall Accuracy: 96%
 Macro Average:
